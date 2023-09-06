@@ -1,19 +1,21 @@
 {
-  "name": "reactjs",
-  "version": "1.0.0",
-  "description": "## Project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/travenwells0422/ReactJs.git"
-  },
-  "author": "Traven Wells",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/travenwells0422/ReactJs/issues"
-  },
-  "homepage": "https://github.com/travenwells0422/ReactJs#readme"
+    "name": "reactjs",
+    "version": "1.0.0",
+    "description": "## Project",
+    "main": "index.js",
+    "scripts": {
+        "start": "cd subdirectory && npm my-script",
+        "my-script": "cd ./api && node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/travenwells0422/ReactJs.git"
+    },
+    "author": "Traven Wells",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/travenwells0422/ReactJs/issues"
+    },
+    "homepage": "https://github.com/travenwells0422/ReactJs#readme"
 }
