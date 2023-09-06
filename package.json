@@ -4,7 +4,7 @@
     "description": "## Project",
     "main": "index.js",
     "scripts": {
-        "start": "cd ./basicbuild && npm start",
+        "start": "cd ./basicbuild && react-scripts start",
         "my-script": "cd ./basicbuild/api && node server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
