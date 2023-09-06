@@ -4,7 +4,7 @@
     "description": "## Project",
     "main": "index.js",
     "scripts": {
-        "start": "cd subdirectory && npm my-script",
+        "start": "cd basicbuild && npm my-script",
         "my-script": "cd ./api && node server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
