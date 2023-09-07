@@ -15,7 +15,7 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
-        "start": "concurrently \"npm:react-start\" \"npm:node-start\"",
+        "start": "concurrently \"npm:node-start\" \"npm:react-start\"",
         "react-start": "cd ./basicbuild && npm start ",
         "node-start": "cd ./basicbuild/api && node server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
