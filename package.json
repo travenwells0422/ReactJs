@@ -14,7 +14,7 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
-        "start": "cd ./basicbuild && npm start npm run my-script",
+        "start": "npm run my-script",
         "my-script": "cd ./basicbuild/api && node server.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
